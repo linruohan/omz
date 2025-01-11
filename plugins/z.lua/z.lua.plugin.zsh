@@ -15,7 +15,7 @@ if [[ -z "$ZLUA_EXEC" ]]; then
 	done
 	if [[ -z "$ZLUA_EXEC" ]]; then
 		echo "Not find lua in your $PATH, please install it."
-		return
+		exit 1
 	fi
 fi
 
