@@ -1,7 +1,7 @@
 export OMZ=$(realpath $(dirname $0))
 source $OMZ/config/omz.zsh &> /dev/null
 # source $OMZ/config/git.zsh
-# source $OMZ/config/fzf.zsh
+source $OMZ/config/fzf.zsh
 # source $OMZ/config/hook.zsh
 # source $OMZ/themes/simple.zsh-theme
 source $OMZ/themes/agnoster.zsh-theme  &> /dev/null
