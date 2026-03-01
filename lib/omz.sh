@@ -37,8 +37,6 @@ function d () {
 compdef _dirs d
 ls --color=tty . &>/dev/null && alias ls='ls --color=tty' || alias ls='ls -G'
 alias lsa='ls -lah'
-alias l='ls -lah'
-alias ll='ls -lh'
 alias la='ls -lAh'
 
 grep-flag-available() {
