@@ -1,10 +1,10 @@
-export OMZ=$(realpath $(dirname $0))
+export OMZ=~/.config/omz
 source $OMZ/config/omz.zsh &> /dev/null
 # source $OMZ/config/git.zsh
 source $OMZ/config/fzf.zsh
 # source $OMZ/config/hook.zsh
 # source $OMZ/themes/simple.zsh-theme
-source $OMZ/themes/agnoster.zsh-theme  &> /dev/null
+source $OMZ/themes/agnoster.zsh-theme &> /dev/null
 
 # configuration
 #[ "$_OMZ_APPLY_PREEXEC_HOOK" = "true" ] && _apply_preexec_hook  # file: $OMZ/config/hook.zsh
